@@ -1,0 +1,7 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<main>
+	<auto_rotate>
+		<active>true</active>
+		<time>5</time>
+	</auto_rotate>
+</main>

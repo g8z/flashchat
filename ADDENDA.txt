@@ -1,0 +1,146 @@
+WELCOME TO FLASHCHAT!
+
+***** IMPORTANT SECURITY NOTE *****
+
+YOU SHOULD DELETE INSTALL.PHP, AND THE INSTALL_FILES FOLDER AFTER INSTALLATION!
+
+***********************************
+
+(c) 1999-2008 Darren G. Gates
+
+This file contains important installation & configuration information for FlashChat, beyond that provided in the INSTALL.txt file.
+
+
+****** WHAT YOU NEED ******
+
+To Install FlashChat, you MUST have PHP 4.1.2 or better, and access to a server running MySQL. In addition, you must have the authority to create and edit tables in MySQL, and change the permissions of files and folders.
+
+To install FlashChat's powerful "bot" feature, you should disable "safe mode" for PHP, if it is enabled. It can be re-enabled after installation. If you are unsure whether safe mode is enabled, you should check with your web hosting provider.
+
+
+****** INSTALL ******
+
+A variety of well-known PHP content-management systems and bulletin boards are supported by FlashChat. If you have such a system, like phpBB or Mambo or phpNuke, and you wish to integrate FlashChat with such a system, please refer to the online documentation:
+
+http://www.tufat.com/docs/flashchat/index.html
+
+Not all servers and installations are the same, however. In some cases, it may be necessary to edit the appropriate file in the /inc/cmses/ folder of FlashChat to suit your installation. FlashChat has been tested using a DEFAULT PHP/MySQL installation with the DEFAULT installation of specific versions of these systems. Please understand that these providers are always updating and patching their systems, so it's not always possible to stay up-to-date with such changes.
+
+If you ARE using one of these systems, then please refer to the online documentation for the initial setup of FlashChat on your server, and integration instructions with your particular system.
+
+If you are NOT using one of these systems, then you can just copy the entire "chat" directory structure to the folder of your choice on your web server. You may rename this directory if you wish. You should set index.php as the default file for the /chat directory.
+
+Whether you ARE or ARE NOT using FlashChat in an integrated manner, you should now do these steps...
+
+Using your web browser open the "install.php" to wherever you uploaded the FlashChat system to. For example:
+
+http://www.yourserver.com/path/to/chat/install.php
+
+Follow the instructions that you see on your screen. The database connection parameters are usually NOT the same as your FTP login information. You should contact your website administrator to determine the correct MySQL login parameters. 
+
+If you have a previous version of FlashChat installed and you are upgrading to this version, then you may need to change the table prefix value to something other than "flashchat_". For example, you could try "flashchat2_". Or, just remove the existing FlashCaht tables and do a fresh install. There is presently no automatic upgrader for FlashChat (this is a planned 5.x feature).
+
+BE SURE TO REMOVE INSTALL.PHP FROM YOUR SERVER AFTER INSTALLATION! Otherwise, your database login parameters will be viewable to all, which is bad. Also remove the "install_files" folder.
+
+IMPORTANT: You must FTP the files using BINARY transfer mode. If you do not, then what will happen is that the system will install correctly, but you'll get a blank screen when you try to login to the chat. If you do not know what this means, or if you are not sure if your FTP client is using binary or text/ascii mode, please consult your FTP documentation or web server administrator.
+
+If you are on a Windows server, then you may need to contact your web host to change the permissions of files and folders, to ensure that appTime.txt and bot.txt and other files are writable by FlashChat. FlashChat writes temporary information to these files to reduce the load on your MySQL server.
+
+
+****** CONFIGURE ******
+
+You may open the /inc/config.php file using a plain text editor (like TextPad, available from http://www.textpad.com) to configure FlashChat, but this is entirely optional. There are additional options for configuring the chat layout and theme options in the /inc/themes folder, and the /inc/layouts folder. If you do not see a configuration option that you need, please post a message on the TUFaT.com forum. If your suggestion is generally useful to many, then it is very likely that it will be implemented in a future release.
+
+You can update the room list, remove users (when FlashChat is used in the DefaultCMS mode), and view the message history by going to:
+
+http://www.yourserver.com/path/to/chat/admin/ (or whatever path you installed FlashChat at)
+
+If you are unable to access the /admin section for any reason, then you may also edit the room list manually using any MySQL database administration program, like phpMyAdmin or phpFlashMyAdmin (http://www.tufat.com/phpflashmyadmin.php).
+
+The default admin login (admin/adminpass) is only used if you are using FlashChat in "non-registered users" mode... i.e., user registration is not required to enter the chat. If you are using it in "registered" mode (so called "default CMS" mode), then you will need to create a new user first. The first user profile created is automatically assigned the administrative priviledges. After that, registrants are non-admin users, but they can be promoted to admin by using the admin panel.
+
+If you are using FlashChat in live support mode (for example, companies that wish to use FlashChat as a support system for their customers), see livesupport.php for an example of how to detect if live support is "open" or not - i.e., whether a moderator / support person is present or not.
+
+To create new themes and edit existing themes, please refer to the FlashChat Documentation, at http://www.tufat.com/docs/flashchat/index.html
+
+
+****** INTEGRATING FLASHCHAT WITH YOUR CMS OR BULLETIN BOARD SYTEM ******
+
+Please see the appropriate integration instructions in the online documentation:
+
+http://www.tufat.com/docs/flashchat/index.html
+
+Some users have posted updates to various CMS integrations, which you can browse through and freely download from the Code Depot:
+
+http://www.tufat.com/resources2.htm
+
+In the event that FlashChat does not successfully integrate with your CMS system, you can probably "tweak" one of the existing CMS integration files, located in the /inc/cmses/ folder, to suit your needs. For example, if you are using a version that FlashChat doesn't yet support, or if you have manually made changes to your CMS system. Many users have posted tips on integrating FlashChat with various systems at the TUFaT.com user-to-user support forum at http://www.tufat.com/forum/ It's well worth it to read through some of those posts, especially the "Stickies".
+
+
+****** BANDWIDTH AND SPEED ******
+
+Many users have asked me how much bandwidth FlashChat consumes. The actual amount depends - of course - on the number of users that your chatroom has in it, and how much chatting they do. It also depends on:
+
+1) the size of the background JPG images (should be under 40 KB)
+2) the frequency of the Flash refreshes (default is 3 seconds, set in config.php)
+
+Most users have told me that FlashChat consumes less bandwidth than most other chat systems that they have used. When the SWF retrieves messages from the database, it receives ONLY the most recent messages, which allows the system to be very efficient. There is some XML meta-data which is also sent with each transmission, but this does not add substantially to the bandwidth.
+
+In addition, you can tell FlashChat to ping the server less frequently when a user has the "AWAY" status set by opening /inc/config.php and editing this variable:
+
+msgRequestIntervalAway
+
+The higher the value of this variable, the less frequently the server will be pinged for new messages when a user is "AWAY".
+
+To ensure smooth chat operation, you should use FlashChat on the fastest server that you have available, especially if many chatters are using the system. If you expect to have over 30 simultaneous chatters, it is strongly recommended that you use FlashChat on a dedicated server with ample bandwidth, preferably with the "socket server" option enabled.
+
+
+****** COMMON QUESTIONS ******
+
+Q: How can I download future updates? How much do updates cost?
+A: Updates are free, and can be downloaded from http://www.tufat.com/download.php
+
+Q: Will FlashChat always be $5?
+A: I hope so. It's been $5 since 1999, and I have no plans to change that.
+
+Q: Will there be more FlashChat development to come?
+A: Absolutely. I've upgraded FlashChat over 100 times since it was first released.
+
+Q: What are some features that I can expect in the future?
+A: There are tentative plans for more skins, a Java version of the socket server, updates to many CMS integration classes, and expanded online documentation. I'm also planning to integrate e-commerce features into FlashChat.
+
+Q: What kind of support can I expect from Darren?
+A: Little to none. Support is user-to-user only on the online forum: http://www.tufat.com/forum/  I often do peruse posts to get ideas for new features and to investigate bugs, however I don't usually reply to posts. I consider this the trade-off for offering the software for just $5, and giving away 100% of the source code... the idea is that if you can't find a way to do XYZ in FlashChat... well, you have the source code... maybe you can implement it yourself.
+
+Q: Is Darren available for freelance development?
+A: No, I don't have enough time these days to accept additional work.
+
+Q: Can I get the FlashChat "About" screen changed or removed, perhaps for an additional fee?
+A: No. I feel strongly about giving credit to those who contributed to the development effort. I understand that there are some companies, like vBulletin, that will remove all copyright references to a product, for a fee. I don't offer such a service at this time.
+
+Q: Can I re-distribute / re-sell FlashChat?
+A: Absolutely Not. You may use it on a single domain. That's all. Use on additional domains requires additional $5 licenses. Your $5 license goes a long way to FlashChat development, since I typically invest 100% of proceeds from FlashChat back into development. Besides my own time, I hire programming and design help often.
+
+
+****** CHANGE LOG & ADDITIONAL RESOURCES ******
+
+Please go to http://www.tufat.com/chat.php to view the FlashChat ChangeLog and to download free, user-contributed resources for FlashChat, like new themes and background images, updates to CMS integration files, etc.
+
+
+****** GETTING ASSISTANCE ******
+
+For simple questions, please post your questions or concerns on the TUFaT.com forum: http://www.tufat.com/forum/  This forum is a PEER (user-to-user) support forum, not necessarily a developer-supported forum. In other words, if you post a message, you may get a response, but it is not necessarily guaranteed. In general, FlashChat users have been quite willing to assist other FlashChat users. For $5, this is unfortunately the best that I can offer.
+
+
+****** LICENSE ******
+
+The license for FlashChat permits you to install this software on a single domain (.com, .org, .net, etc.). You may make any modifications that you wish to the source code, but you may not claim credit for it, and you may not, under any circumstances, re-distribute or re-sell FlashChat. You may also not remove the "About" screen which shows the copyright information and credits.
+
+The purpose of FlashChat is to give companies, organizations, and individuals a simple way to add live chat capabilities to any PHP/MySQL-enabled website. Technical support and upgrades are always FREE! All terms of this license are subject to change in future releases of FlashChat.
+
+
+****** ADDENDA ******
+
+If you liked FlashChat, then please go to whatever forum you downloaded it from (e.g. www.hotscripts.com) and give the program a favorable rating! 
+
+Thanks. :)

@@ -1,0 +1,98 @@
+************************************************
+Welcome to the Java socket server for FlashChat!
+************************************************
+
+This requires at least FlashChat 4.7.0. All files necessary to run the Java Socket Server for FlashChat have been included with FlashChat 4.7.0. You must have Java 5 (also known as "1.5" JRE or JDK) installed on your server.  You can acquire this from:
+
+http://www.java.com/en/download/index.jsp
+
+For more information about Java programming and Java development, please visit:
+
+http://java.sun.com
+
+To implement the Java socket server, please make the following changes to PHP files. Please use a good text editor, like Textpad (www.textpad.com). You do NOT need to have the socket extensions enabled in PHP.ini - that is only needed if you are using the PHP version of the socket server.
+
+**** Do not use any text editor from Microsoft, and do not use Dreamweaver or Frontpage or any other webpage editor. Also, please be very careful that you do not introduce PHP syntax errors while editing these files... as always, BACKUP BACKUP BACKUP! *****
+
+
+****************************
+STEP 1: OPEN /inc/config.php
+****************************
+
+** FIND THIS CODE **
+
+'enableSocketServer' => false,
+'javaSocketServer' => false,
+
+** CHANGE IT TO THIS **
+
+'enableSocketServer' => true,
+'javaSocketServer' => true,
+
+
+Please NOTE: FlashChat has TWO versions of the socket server: a Java socket server, and a PHP (non-Java) socket server. For the Java socket server, you must have both of these config.php options set to true. If you only set "enableSocketServer" to true, you are effectively only enabling the PHP version of the socket server, which although not as robust as the Java version, may be useful to some users who do not have Java available. You can read more about the PHP socket server in the online docs:
+
+http://www.tufat.com/docs/flashchat/
+
+The steps for enabling the PHP socket server are somewhat different than those for the Java socket server.
+
+
+*******************************
+STEP 2: CONFIGURE STARTUP FILES
+*******************************
+
+You must set the correct domain (http://...) on which FlashChat is to be used, and set the correct Java classpath.
+
+Open /inc/javaServer/config.socketSrv.php and make the necessary changes to match your server. For local testing, "localhost" would be enough, but if you wish to test over the web, you'll need an actual domain name.
+
+NOTE: If FlashChat is loaded from http://domain.com/chat, then the 'host' parameter in config.socketSrv.php should be 'domain.com', however if http://www.domain.com/chat is used, then the 'host' parameter would be 'www.domain.com'. In other words, your host value may differ based on whether you start FlashChat from a "www" domain.
+
+Be sure that the port that you specify is not blocked by a firewall.
+
+IF YOU ARE USING WINDOWS...
+
+	- open /inc/javaServer/start.bat, and change the paths as appropriate
+	
+	- run "start.bat" by double-clicking it or starting it from the command prompt
+	
+IF YOU ARE USING LINUX OR UNIX...
+
+	- open /inc/javaServer/startServer, and change the paths as appropriate. Alternatively, you may use /inc/javaServer/startServerComplex, for a version that checks for Java before attempting the socket server. You may want to try the simpler version just to get it working, and the more complex version for production release.
+	
+	- run startServer from the command line (type "./startServer" at the command line while in the /inc/javaServer/ directory)
+
+
+*****************
+STEP 3: HAVE FUN!
+*****************
+
+That's all! You should be able to refresh FlashChat, and login using the socket server. This will enable you to have dozens, maybe hundreds, of chatters without overloading your server.
+
+Please check /inc/javaServer/socketServer.log or /inc/javaServer/log.txt for any errors. The log.txt files are only populated with data if the 'errorReports' option is set to 'true' in /inc/config.php. It is recommended that you leave this to 'false' unless you need to debug your FlashChat setup.
+
+
+************************
+LOOKING FOR SOURCE CODE?
+************************
+
+If you require the Java source code (.java files), they are being offered for sale for just $5 at:
+
+http://www.tufat.com/javasource.php
+
+Most (99.9%) of users will not need these sources, however. We're making them available for those users who wish to perform advanced integration with their web system, and who are familiar with Java programming. For basic operation of the Java socket server with FlashChat, they are NOT needed. I hope it doesn't seem too greedy to sell these separately... the developmental costs for the Java socket server were rather high.
+
+
+****************
+ACKNOWLEDGEMENTS
+****************
+
+Special thanks to Andriy and Taras of the RuAnSoft development team for their coding prowess, and Kelly, Gene, and the other TUFaT.com moderators and testers for their testing assistance.
+
+I strongly welcome feedback on the Java socket server for FlashChat, especially if that feedback is accompanied by improvements to the source code or suggestion for making the code more secure or more reliable.
+
+Please email any suggestions to g8z@yahoo.com, or post on the forum: 
+
+http://forum.tufat.com
+
+Thanks for using FlashChat!
+Darren

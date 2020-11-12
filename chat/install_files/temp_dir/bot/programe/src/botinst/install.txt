@@ -1,0 +1,44 @@
+BOTUPDATE Script by Gene Wells - 7/20/2005, FREEWARE
+Updated 07/21/2005 to make it load faster and work with 4.1.1b
+Updated 07/24/2005 removed session() statements (not needed). Tested OK with 4.1.2!
+Updated 07/25/2005 Added botupdateinc.php for Host timeout issues.
+Updated 08/04/2005 Removed some unneeded code that was causing errors
+
+Compatibility: 
+FlashChat v4.0.10, 11, 12
+FlashChat v4.1.x
+FlashChat V4.2.x
+
+What it does: 
+botupdate will erase your existing FlashChat bot tables from your MySQL database and then re-load the tables
+with whatever aiml files are in your chat/bot/programe/aiml directory. Currently the existing botloader.php does NOT work,
+so I used it and botloaderfuncs.php to create these files.
+
+I've tested this script on my own website, however: YOU ARE RESPONSIBLE FOR MAKING THE CHOICE TO RUN THIS SCRIPT! I ASSUME
+NO RESPOSIBILITY FOR ANY PROBLEMS OR DAMAGE TO YOUR FLASHCHAT INSTALL! (Had to be said) :).
+
+
+
+Installation and requirements:
+
+You MUST have an existing Flashchat install where you selected to install the bot. This script will not create the bot tables,
+it only truncates and updates existing ones!
+
+** Your bot/programe/src/botinst directory MUST be writable! CHMOD to 777 **
+
+You must have aiml files in the bot/programe/aiml directory on your server.
+
+FTP these files to your bot/programe/src/botinst directory using an ftp program. Upload MUST be in BINARY mode!
+
+Open your web browser and type the url to the botupdate.html file. 
+EXAMPLE: http://www.yoursite.com/flashchat/bot/src/botinst/botupdate.html
+
+
+That's it!
+
+
+Contact info:
+
+PM me on the TuFat forum, my nick is Geno
+Email me at gwells@frognet.net
+

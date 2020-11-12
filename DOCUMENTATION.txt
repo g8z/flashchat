@@ -1,0 +1,15 @@
+For documentation on FlashChat installation, configuration, and integration with Bulletin Boards and Content Management Systems, please visit the online documentation at:
+
+http://www.tufat.com/docs/flashchat/index.html
+
+Module documentation can be found at:
+
+http://www.tufat.com/docs/modpack/index.html
+
+The FlashChat modules are considered a package separate from FlashChat. You can read more about these modules, and purchase them for $5, at http://www.tufat.com/modules.php
+
+Information about creating new fonts for FlashChat 5.x can be found on this Code Depot page:
+
+http://www.tufat.com/resources2.htm
+
+Search for the resource submitted on 25 Jul 08 titled "Creating new fonts for FlashChat 5" (resource #1042)

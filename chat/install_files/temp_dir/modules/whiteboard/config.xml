@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <size width="340" height="500">
+  </size>
+  <fcs url="rtmp://localhost/whiteboard">
+  </fcs>
+  <string id="1" value="Title">
+  </string>
+  <string id="2" value="Load">
+  </string>
+  <string id="3" value="Save">
+  </string>
+  <string id="4" value="no users">
+  </string>
+  <string id="5" value="Share With User">
+  </string>
+  <string id="6" value="Send To User">
+  </string>
+  <string id="7" value="Save As ...">
+  </string>
+  <string id="8" value="Clear">
+  </string>
+  <string id="9" value="Selection Tool">
+  </string>
+  <string id="10" value="Pencil Tool">
+  </string>
+  <string id="11" value="Text Tool">
+  </string>
+  <string id="12" value="Shape Tool">
+  </string>
+  <string id="13" value="Copy">
+  </string>
+  <string id="14" value="Cut">
+  </string>
+  <string id="15" value="Paste">
+  </string>
+  <string id="16" value="Switch Layers">
+  </string>
+  <string id="17" value="Canvas color">
+  </string>
+  <string id="18" value="Rectangle">
+  </string>
+  <string id="19" value="Polygon">
+  </string>
+  <string id="20" value="Circle">
+  </string>
+  <string id="21" value="Ellipse">
+  </string>
+  <string id="22" value="Line">
+  </string>
+  <string id="23" value="Star">
+  </string>
+  <string id="24" value="Enable background">
+  </string>
+  <string id="25" value="Background color">
+  </string>
+  <string id="26" value="Background alpha">
+  </string>
+  <string id="27" value="Font color">
+  </string>
+  <string id="28" value="Font size">
+  </string>
+  <string id="29" value="Line color">
+  </string>
+  <string id="30" value="Line thickness">
+  </string>
+  <string id="31" value="Line alpha">
+  </string>
+  <string id="32" value="Corners">
+  </string>
+  <string id="33" value="Angle">
+  </string>
+  <string id="34" value="Inner radius">
+  </string>
+  <string id="35" value="Corner radius">
+  </string>
+  <string id="36" value="(Username) would like to share a white board with you!">
+  </string>
+  <string id="37" value="Accept and overwrite my drawing area">
+  </string>
+  <string id="38" value="Accept, but first save my drawing as:">
+  </string>
+  <string id="39" value="Accept and open in new window">
+  </string>
+  <string id="40" value="Decline invitation">
+  </string>
+  <string id="41" value="Record not found">
+  </string>
+  <string id="42" value="Title must have value">
+  </string>
+  <string id="43" value="Title must be unique">
+  </string>
+  <string id="44" value="Accepted">
+  </string>
+  <string id="45" value="Declined">
+  </string>
+</settings>

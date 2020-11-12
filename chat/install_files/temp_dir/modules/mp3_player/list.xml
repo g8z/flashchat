@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<main>
+	<song src="mp3/3.mp3">
+		<title>Guano Apes</title>
+		<artist>Open Your Eyes</artist>
+		<genre>Rock</genre>
+		<duration>3:52</duration>
+	</song>
+	<song src="mp3/7.mp3">
+		<title>Metallica</title>
+		<artist>Nothing Else Matters</artist>
+		<genre>Rock</genre>
+		<duration>5:17</duration>
+	</song>
+	<song src="mp3/4.mp3">
+		<title>Linkin Park</title>
+		<artist>Don't Say</artist>
+		<genre>Rock</genre>
+		<duration>3:08</duration>
+	</song>
+	<song src="mp3/1.mp3">
+		<title>Future Sound Of London</title>
+		<artist>Papua New Guinea</artist>
+		<genre>IDM</genre>
+		<duration>1:42</duration>
+	</song>
+</main>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<main>
+	<width>250</width>
+	<height>310</height>
+	<use_theme_colors>false</use_theme_colors>
+	<background_color>0x3B5D9D</background_color>
+	<top_title>Messages:</top_title>
+	<top_title_color>0xC5D3FA</top_title_color>
+	<title_color>0xFFFFFF</title_color>
+	<title_background_color>0x06368B</title_background_color>
+	<message_color>0xCAD7FF</message_color>
+	<message_background_color>0x2F579F</message_background_color>
+	<navigation_color>0x2F61D2</navigation_color>
+	<broadcast_title_text>Broadcast message</broadcast_title_text>
+</main>

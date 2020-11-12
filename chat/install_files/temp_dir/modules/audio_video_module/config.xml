@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<settings>
+	<!-- protocol:[//host][:port]/appname/[instanceName] -->
+	<width>240</width>
+	<height>450</height>
+	<server>rtmp://yourdomain.net:1935/audio_video_module/chat</server>
+	<volume>10</volume>
+	<cam>on</cam>
+	<mic>off</mic>	
+</settings>

@@ -1,0 +1,3 @@
+#!/bin/sh
+ps xww | grep "java flashchat.com.socketServer.SimpleServer" | cut -c1-5 | xargs -i kill {} 2>/dev/null
+

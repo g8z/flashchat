@@ -1,0 +1,47 @@
+.body, h2, td, input, select, title, button {
+    font-family: Arial;
+}
+.title {
+    font-size: 24px;
+    font-weight: bolder;
+}
+.subtitle {
+    font-size: 16px;
+    font-weight: bold;
+}
+.normal {
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Arial;
+}
+.step {
+    font-size: 12px;
+    font-weight: bold;
+    color: green;
+}
+input {
+    font-size: 12px;
+    font-weight: normal;
+}
+select {
+    font-size: 12px;
+    font-weight: normal;
+}
+button {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.body_table {
+	    border: 1px solid #000000;        
+		background-color: #EEEEEE;
+		 font-size: 12px;
+    font-weight: normal;	
+} 
+
+.error_border {
+	border: 1px solid #FF0000;
+	background-color: #FFFFFF;
+	 font-size: 12px;
+    font-weight: normal;
+} 

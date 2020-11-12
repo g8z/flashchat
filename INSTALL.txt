@@ -1,0 +1,37 @@
+WELCOME TO FLASHCHAT!
+
+***** IMPORTANT SECURITY NOTE *****
+
+YOU SHOULD DELETE INSTALL.PHP, AND THE INSTALL_FILES FOLDER AFTER INSTALLATION!
+
+***********************************
+
+(c) 1999-2008 Darren G. Gates
+
+
+INSTALLATION:
+
+1) Upload the entire "chat" folder to your server, using binary FTP transfer.
+
+2) Open the "install.php" file using your web browser, and follow the on-screen instructions.
+
+For example, if you uploaded the "chat" folder to:
+
+http://www.yourserver.com/chat/
+
+...then you would direct your web browser to...
+
+http://www.yourserver.com/chat/install.php
+
+HOWEVER - If you wish to integrate FlashChat with a Bulletin Board or Content Management System, please use the "Integrating FlashChat" instructions found online at: 
+
+http://www.tufat.com/docs/flashchat/integration.html
+
+Additional notes about installing and using FlashChat can be found online at:
+
+http://www.tufat.com/docs/flashchat/index.html
+
+Thanks for your patronage of TUFaT.com! I hope that you enjoy FlashChat. Remember: upgrades are free and can be accessed from www.tufat.com/download.php. Donations beyond the requisite $5 are always welcome and can be sent via Paypal to g8z@yahoo.com
+
+cheers,
+Darren

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+  <bad_words_settings>
+    <frequency>1</frequency>
+    <time>9999</time>
+    <action>alert</action>
+    <message>You have violated the terms of the chat by using excessive bad language.You will now banned from the chat for 1 hour.</message>
+  </bad_words_settings>
+  <spam_settings>
+    <frequency>2</frequency>
+    <time>999</time>
+    <action>alert</action>
+    <message>Please do not spam our chat!</message>
+  </spam_settings>
+  <config>
+    <use_xml_badwords>true</use_xml_badwords>
+    <use_php_badwords>false</use_php_badwords>
+  </config>
+</main>

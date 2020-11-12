@@ -1,0 +1,15 @@
+2010-02-16 14:04:08 Listening on port 9099. Server started at 14:04:08
+2010-02-16 14:04:16 New connection ( 0 ) from 127.0.0.1 on port 52423
+2010-02-16 14:04:16 Received <policy-file-request/> from 0
+2010-02-16 14:04:16 sending: "<?xml version="1.0" encoding="UTF-8"?><cross-domain-policy><allow-access-from domain="*" to-ports="*" secure="false" /></cross-domain-policy>2010-02-16 14:04:16 Connection closed by peer
+2010-02-16 14:04:16 Closed connection ( 0 ) from 127.0.0.1 on port 52423
+2010-02-16 14:04:16 New connection ( 0 ) from 127.0.0.1 on port 52424
+2010-02-16 14:04:16 Received <request a="0" l="en" r="0" session_inst="1" tz="-120" c="lin" ps="" lg="b3" b="1" id="" /> from 0
+2010-02-16 14:06:17 New connection ( 1 ) from 127.0.0.1 on port 52475
+2010-02-16 14:06:17 New connection ( 2 ) from 127.0.0.1 on port 52476
+2010-02-16 14:06:17 Connection closed by peer
+2010-02-16 14:06:17 Closed connection ( 1 ) from 127.0.0.1 on port 52475
+2010-02-16 14:06:17 Connection closed by peer
+2010-02-16 14:06:17 Closed connection ( 2 ) from 127.0.0.1 on port 52476
+2010-02-16 14:06:17 New connection ( 1 ) from 127.0.0.1 on port 52477
+2010-02-16 14:06:17 Received <request ps="" r="0" l="en" c="lin" lg="gr" id="" tz="-120" b="1" a="0" session_inst="1" /> from 1

@@ -1,0 +1,1 @@
+This is the default message seen when entering a public room.

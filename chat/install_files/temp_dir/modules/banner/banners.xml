@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+  <banner src="banners/1.swf" fading="true">
+    <url>http://www.domain1.com</url>
+    <target>_blank</target>
+    <langs>fr</langs>
+    <rooms>The Lounge</rooms>
+    <skins>xp_skin</skins>
+  </banner>
+  <banner src="banners/2.swf" fading="false">
+    <url>http://www.domain2.com</url>
+    <target>_blank</target>
+    <langs>all</langs>
+    <rooms>Hollywood</rooms>
+    <skins>all</skins>
+  </banner>
+  <banner src="banners/3.jpg" fading="true">
+    <url>http://www.domain3.com</url>
+    <target>_blank</target>
+    <langs>all</langs>
+    <rooms>all</rooms>
+    <skins>all</skins>
+  </banner>
+  <banner src="banners/3.jpg" fading="true">
+    <url>http://www.domain3.com</url>
+    <target>_blank</target>
+    <langs>fr,gm</langs>
+    <rooms>all</rooms>
+    <skins>xp_skin</skins>
+  </banner>
+</main>

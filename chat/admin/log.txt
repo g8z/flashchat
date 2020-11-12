@@ -1,0 +1,720 @@
+
+//-----------------------------------------------------
+//---- 17:29:22 12/08/08 ---- 78
+//-----------------------------------------------------
+
+//-----------------------------------------------------
+//---- 17:31:31 12/08/08 ---- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//-----------------------------------------------------
+
+//-----------------------------------------------------
+//---- 17:52:27 12/08/08 ---- SELECT MAX(id)+1 AS newid FROM flashchat_rooms
+//-----------------------------------------------------
+57
+//-----------------------------------------------------
+//---- 17:52:27 12/08/08 ---- INSERT INTO flashchat_rooms (created, name, password, ispublic, ispermanent) VALUES (NOW(), ?, ?, ?, ?)
+//-----------------------------------------------------
+58
+//-----------------------------------------------------
+//---- 17:52:27 12/08/08 ---- SELECT * FROM flashchat_rooms WHERE id=?
+//-----------------------------------------------------
+80
+//-----------------------------------------------------
+//---- 17:52:29 12/08/08 ---- SELECT count(*) as maxnumb FROM flashchat_rooms WHERE ispermanent IS NOT NULL AND instance_id=?
+//-----------------------------------------------------
+66
+//-----------------------------------------------------
+//---- 17:52:29 12/08/08 ---- SELECT count(*) as rowcount FROM flashchat_rooms WHERE id > 0 AND instance_id=?
+//-----------------------------------------------------
+67
+//-----------------------------------------------------
+//---- 17:52:29 12/08/08 ---- SELECT ispermanent FROM flashchat_rooms WHERE  instance_id=? ORDER BY ispermanent
+//-----------------------------------------------------
+68
+//-----------------------------------------------------
+//---- 17:52:29 12/08/08 ---- SELECT * FROM flashchat_rooms WHERE  instance_id=? ORDER BY ispermanent
+//-----------------------------------------------------
+68
+//-----------------------------------------------------
+//---- 17:52:31 12/08/08 ---- UPDATE flashchat_rooms set name='cvn', password='', ispublic='y', ispermanent=5 WHERE id=14
+//-----------------------------------------------------
+79
+//-----------------------------------------------------
+//---- 17:52:31 12/08/08 ---- SELECT id FROM flashchat_rooms WHERE ispermanent IS NOT NULL ORDER BY ispermanent
+//-----------------------------------------------------
+78
+//-----------------------------------------------------
+//---- 17:52:31 12/08/08 ---- UPDATE flashchat_rooms SET ispermanent=? WHERE id=?
+//-----------------------------------------------------
+85
+//-----------------------------------------------------
+//---- 17:52:31 12/08/08 ---- UPDATE flashchat_rooms SET ispermanent=? WHERE id=?
+//-----------------------------------------------------
+85
+//-----------------------------------------------------
+//---- 17:52:31 12/08/08 ---- UPDATE flashchat_rooms SET ispermanent=? WHERE id=?
+//-----------------------------------------------------
+85
+//-----------------------------------------------------
+//---- 17:52:31 12/08/08 ---- UPDATE flashchat_rooms SET ispermanent=? WHERE id=?
+//-----------------------------------------------------
+85
+//-----------------------------------------------------
+//---- 17:52:31 12/08/08 ---- UPDATE flashchat_rooms SET ispermanent=? WHERE id=?
+//-----------------------------------------------------
+85
+//-----------------------------------------------------
+//---- 17:52:31 12/08/08 ---- SELECT count(*) as maxnumb FROM flashchat_rooms WHERE ispermanent IS NOT NULL AND instance_id=?
+//-----------------------------------------------------
+66
+//-----------------------------------------------------
+//---- 17:52:31 12/08/08 ---- SELECT count(*) as rowcount FROM flashchat_rooms WHERE id > 0 AND instance_id=?
+//-----------------------------------------------------
+67
+//-----------------------------------------------------
+//---- 17:52:31 12/08/08 ---- SELECT ispermanent FROM flashchat_rooms WHERE  instance_id=? ORDER BY ispermanent
+//-----------------------------------------------------
+68
+//-----------------------------------------------------
+//---- 17:52:31 12/08/08 ---- SELECT * FROM flashchat_rooms WHERE  instance_id=? ORDER BY ispermanent
+//-----------------------------------------------------
+68
+//-----------------------------------------------------
+//---- 18:22:08 12/08/08 ---- 58
+//-----------------------------------------------------
+6	2008-08-12 18:22:08	2008-08-12 18:22:08	vvv		y		1	
+
+//-----------------------------------------------------
+//---- 18:23:47 12/08/08 ---- 58
+//-----------------------------------------------------
+
+//-----------------------------------------------------
+//---- 18:24:06 12/08/08 ---- 58
+//-----------------------------------------------------
+
+//-----------------------------------------------------
+//---- 18:42:32 12/08/08 ---- CHAT
+//-----------------------------------------------------
+y
+//-----------------------------------------------------
+//---- 18:42:43 12/08/08 ---- CHAT
+//-----------------------------------------------------
+
+//-----------------------------------------------------
+//---- 18:54:31 12/08/08 ---- SELECT count(*) as maxnumb FROM flashchat_rooms WHERE ispermanent IS NOT NULL AND instance_id=?
+//-----------------------------------------------------
+66
+//-----------------------------------------------------
+//---- 18:54:31 12/08/08 ---- SELECT count(*) as rowcount FROM flashchat_rooms WHERE id > 0 AND instance_id=?
+//-----------------------------------------------------
+67
+//-----------------------------------------------------
+//---- 18:54:31 12/08/08 ---- SELECT ispermanent FROM flashchat_rooms WHERE  instance_id=? ORDER BY ispermanent
+//-----------------------------------------------------
+68
+//-----------------------------------------------------
+//---- 18:54:31 12/08/08 ---- SELECT * FROM flashchat_rooms WHERE  instance_id=? ORDER BY ispermanent
+//-----------------------------------------------------
+68
+//-----------------------------------------------------
+//---- 18:55:43 12/08/08 ---- SELECT count(*) as maxnumb FROM flashchat_rooms WHERE ispermanent IS NOT NULL AND instance_id=?
+//-----------------------------------------------------
+66
+//-----------------------------------------------------
+//---- 18:55:43 12/08/08 ---- SELECT count(*) as rowcount FROM flashchat_rooms WHERE id > 0 AND instance_id=?
+//-----------------------------------------------------
+67
+//-----------------------------------------------------
+//---- 18:55:43 12/08/08 ---- SELECT ispermanent FROM flashchat_rooms WHERE  instance_id=? ORDER BY ispermanent
+//-----------------------------------------------------
+68
+//-----------------------------------------------------
+//---- 18:55:43 12/08/08 ---- SELECT * FROM flashchat_rooms WHERE  instance_id=? ORDER BY ispermanent
+//-----------------------------------------------------
+68
+//-----------------------------------------------------
+//---- 19:01:25 12/08/08 ---- SELECT count(*) as maxnumb FROM flashchat_rooms WHERE ispermanent IS NOT NULL AND instance_id=?
+//-----------------------------------------------------
+66
+//-----------------------------------------------------
+//---- 19:01:25 12/08/08 ---- SELECT count(*) as rowcount FROM flashchat_rooms WHERE id > 0 AND instance_id=?
+//-----------------------------------------------------
+67
+//-----------------------------------------------------
+//---- 19:01:25 12/08/08 ---- SELECT ispermanent FROM flashchat_rooms WHERE  instance_id=? ORDER BY ispermanent
+//-----------------------------------------------------
+68
+//-----------------------------------------------------
+//---- 19:01:25 12/08/08 ---- SELECT * FROM flashchat_rooms WHERE  instance_id=? ORDER BY ispermanent
+//-----------------------------------------------------
+68
+//-----------------------------------------------------
+//---- 19:17:58 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] range from -100 to 100 (left..right)
+//-----------------------------------------------------
+//---- 19:17:58 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] default sound volume, in percent
+//-----------------------------------------------------
+//---- 19:17:58 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] mute all default setting
+//-----------------------------------------------------
+//---- 19:17:58 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:17:58 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:17:58 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:17:58 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:17:58 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:17:58 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:17:58 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:17:58 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:17:58 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:17:58 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:17:58 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:17:58 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:17:58 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:17:58 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:17:58 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:17:58 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:17:58 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:18:09 12/08/08 ---- $_POST
+//-----------------------------------------------------
+Array
+(
+)
+
+//-----------------------------------------------------
+//---- 19:25:17 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] range from -100 to 100 (left..right)
+//-----------------------------------------------------
+//---- 19:25:17 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] default sound volume, in percent
+//-----------------------------------------------------
+//---- 19:25:17 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] mute all default setting
+//-----------------------------------------------------
+//---- 19:25:17 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:25:17 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:25:17 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:25:17 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:25:17 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:25:17 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:25:17 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:25:17 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:25:17 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:25:17 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:25:17 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:25:17 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:25:17 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:25:17 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:25:17 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:25:17 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:25:17 12/08/08 ---- $lang_info
+//-----------------------------------------------------
+[UA] Set "Yes" to activate this sound or "No" to deactivate
+//-----------------------------------------------------
+//---- 19:25:29 12/08/08 ---- $_POST
+//-----------------------------------------------------
+Array
+(
+)
+
+//-----------------------------------------------------
+//---- 19:28:47 12/08/08 ---- $_POST
+//-----------------------------------------------------
+Array
+(
+)
+
+//-----------------------------------------------------
+//---- 14:50:14 19/08/08 ---- $_POST
+//-----------------------------------------------------
+Array
+(
+)
+
+//-----------------------------------------------------
+//---- 14:50:16 19/08/08 ---- $_POST
+//-----------------------------------------------------
+Array
+(
+    [module] => modules
+    [module125] => modules125
+    [type_0_1191] => boolean
+    [name_0_1191] => Enabled:
+    [field_0_1191] => enabled
+    [type_0_845] => combo
+    [name_0_845] => Anchor point:
+    [field_0_845] => anchor
+    [fld_0_845] => 0
+    [type_0_846] => combo
+    [name_0_846] => Path:
+    [field_0_846] => path
+    [fld_0_846] => modules/admin/admin_module.swf
+    [type_0_847] => boolean
+    [name_0_847] => Stretch:
+    [field_0_847] => stretch
+    [fld_0_847] => true
+    [type_0_848] => integer
+    [name_0_848] => Default x position:
+    [field_0_848] => float_x
+    [fld_0_848] => 0
+    [type_0_849] => integer
+    [name_0_849] => Default y position:
+    [field_0_849] => float_y
+    [fld_0_849] => 0
+    [type_0_850] => integer
+    [name_0_850] => Default width:
+    [field_0_850] => float_w
+    [fld_0_850] => 0
+    [type_0_851] => integer
+    [name_0_851] => Default height:
+    [field_0_851] => float_h
+    [fld_0_851] => 0
+    [type_1_1191] => boolean
+    [name_1_1191] => Enabled:
+    [field_1_1191] => enabled
+    [type_1_845] => combo
+    [name_1_845] => Anchor point:
+    [field_1_845] => anchor
+    [fld_1_845] => 0
+    [type_1_846] => combo
+    [name_1_846] => Path:
+    [field_1_846] => path
+    [fld_1_846] => modules/audio_video_module/audio_video_module.swf
+    [type_1_847] => boolean
+    [name_1_847] => Stretch:
+    [field_1_847] => stretch
+    [fld_1_847] => true
+    [type_1_848] => integer
+    [name_1_848] => Default x position:
+    [field_1_848] => float_x
+    [fld_1_848] => 0
+    [type_1_849] => integer
+    [name_1_849] => Default y position:
+    [field_1_849] => float_y
+    [fld_1_849] => 0
+    [type_1_850] => integer
+    [name_1_850] => Default width:
+    [field_1_850] => float_w
+    [fld_1_850] => 0
+    [type_1_851] => integer
+    [name_1_851] => Default height:
+    [field_1_851] => float_h
+    [fld_1_851] => 0
+    [type_2_1191] => boolean
+    [name_2_1191] => Enabled:
+    [field_2_1191] => enabled
+    [fld_2_1191] => on
+    [type_2_845] => combo
+    [name_2_845] => Anchor point:
+    [field_2_845] => anchor
+    [fld_2_845] => 0
+    [type_2_846] => combo
+    [name_2_846] => Path:
+    [field_2_846] => path
+    [fld_2_846] => modules/banner/banner_ad.swf
+    [type_2_847] => boolean
+    [name_2_847] => Stretch:
+    [field_2_847] => stretch
+    [fld_2_847] => true
+    [type_2_848] => integer
+    [name_2_848] => Default x position:
+    [field_2_848] => float_x
+    [fld_2_848] => 0
+    [type_2_849] => integer
+    [name_2_849] => Default y position:
+    [field_2_849] => float_y
+    [fld_2_849] => 0
+    [type_2_850] => integer
+    [name_2_850] => Default width:
+    [field_2_850] => float_w
+    [fld_2_850] => 0
+    [type_2_851] => integer
+    [name_2_851] => Default height:
+    [field_2_851] => float_h
+    [fld_2_851] => 0
+    [type_3_1191] => boolean
+    [name_3_1191] => Enabled:
+    [field_3_1191] => enabled
+    [type_3_845] => combo
+    [name_3_845] => Anchor point:
+    [field_3_845] => anchor
+    [fld_3_845] => 0
+    [type_3_846] => combo
+    [name_3_846] => Path:
+    [field_3_846] => path
+    [fld_3_846] => modules/mp3_player/mp3player.swf
+    [type_3_847] => boolean
+    [name_3_847] => Stretch:
+    [field_3_847] => stretch
+    [fld_3_847] => true
+    [type_3_848] => integer
+    [name_3_848] => Default x position:
+    [field_3_848] => float_x
+    [fld_3_848] => 0
+    [type_3_849] => integer
+    [name_3_849] => Default y position:
+    [field_3_849] => float_y
+    [fld_3_849] => 0
+    [type_3_850] => integer
+    [name_3_850] => Default width:
+    [field_3_850] => float_w
+    [fld_3_850] => 0
+    [type_3_851] => integer
+    [name_3_851] => Default height:
+    [field_3_851] => float_h
+    [fld_3_851] => 0
+    [type_4_1191] => boolean
+    [name_4_1191] => Enabled:
+    [field_4_1191] => enabled
+    [type_4_845] => combo
+    [name_4_845] => Anchor point:
+    [field_4_845] => anchor
+    [fld_4_845] => 0
+    [type_4_846] => combo
+    [name_4_846] => Path:
+    [field_4_846] => path
+    [fld_4_846] => modules/Multi-Audio-Video Module #1/multiavm.swf
+    [type_4_847] => boolean
+    [name_4_847] => Stretch:
+    [field_4_847] => stretch
+    [fld_4_847] => true
+    [type_4_848] => integer
+    [name_4_848] => Default x position:
+    [field_4_848] => float_x
+    [fld_4_848] => 0
+    [type_4_849] => integer
+    [name_4_849] => Default y position:
+    [field_4_849] => float_y
+    [fld_4_849] => 0
+    [type_4_850] => integer
+    [name_4_850] => Default width:
+    [field_4_850] => float_w
+    [fld_4_850] => 0
+    [type_4_851] => integer
+    [name_4_851] => Default height:
+    [field_4_851] => float_h
+    [fld_4_851] => 0
+    [type_5_1191] => boolean
+    [name_5_1191] => Enabled:
+    [field_5_1191] => enabled
+    [type_5_845] => combo
+    [name_5_845] => Anchor point:
+    [field_5_845] => anchor
+    [fld_5_845] => 0
+    [type_5_846] => combo
+    [name_5_846] => Path:
+    [field_5_846] => path
+    [fld_5_846] => modules/Multi-Audio-Video Module #2/multiavm.swf
+    [type_5_847] => boolean
+    [name_5_847] => Stretch:
+    [field_5_847] => stretch
+    [fld_5_847] => true
+    [type_5_848] => integer
+    [name_5_848] => Default x position:
+    [field_5_848] => float_x
+    [fld_5_848] => 0
+    [type_5_849] => integer
+    [name_5_849] => Default y position:
+    [field_5_849] => float_y
+    [fld_5_849] => 0
+    [type_5_850] => integer
+    [name_5_850] => Default width:
+    [field_5_850] => float_w
+    [fld_5_850] => 0
+    [type_5_851] => integer
+    [name_5_851] => Default height:
+    [field_5_851] => float_h
+    [fld_5_851] => 0
+    [type_6_1191] => boolean
+    [name_6_1191] => Enabled:
+    [field_6_1191] => enabled
+    [type_6_845] => combo
+    [name_6_845] => Anchor point:
+    [field_6_845] => anchor
+    [fld_6_845] => 0
+    [type_6_846] => combo
+    [name_6_846] => Path:
+    [field_6_846] => path
+    [fld_6_846] => modules/Multi-Audio-Video Module #3/multiavm.swf
+    [type_6_847] => boolean
+    [name_6_847] => Stretch:
+    [field_6_847] => stretch
+    [fld_6_847] => true
+    [type_6_848] => integer
+    [name_6_848] => Default x position:
+    [field_6_848] => float_x
+    [fld_6_848] => 0
+    [type_6_849] => integer
+    [name_6_849] => Default y position:
+    [field_6_849] => float_y
+    [fld_6_849] => 0
+    [type_6_850] => integer
+    [name_6_850] => Default width:
+    [field_6_850] => float_w
+    [fld_6_850] => 0
+    [type_6_851] => integer
+    [name_6_851] => Default height:
+    [field_6_851] => float_h
+    [fld_6_851] => 0
+    [type_7_1191] => boolean
+    [name_7_1191] => Enabled:
+    [field_7_1191] => enabled
+    [type_7_845] => combo
+    [name_7_845] => Anchor point:
+    [field_7_845] => anchor
+    [fld_7_845] => 0
+    [type_7_846] => combo
+    [name_7_846] => Path:
+    [field_7_846] => path
+    [fld_7_846] => modules/Multi-Audio-Video Module #4/multiavm.swf
+    [type_7_847] => boolean
+    [name_7_847] => Stretch:
+    [field_7_847] => stretch
+    [fld_7_847] => true
+    [type_7_848] => integer
+    [name_7_848] => Default x position:
+    [field_7_848] => float_x
+    [fld_7_848] => 0
+    [type_7_849] => integer
+    [name_7_849] => Default y position:
+    [field_7_849] => float_y
+    [fld_7_849] => 0
+    [type_7_850] => integer
+    [name_7_850] => Default width:
+    [field_7_850] => float_w
+    [fld_7_850] => 0
+    [type_7_851] => integer
+    [name_7_851] => Default height:
+    [field_7_851] => float_h
+    [fld_7_851] => 0
+    [type_8_1191] => boolean
+    [name_8_1191] => Enabled:
+    [field_8_1191] => enabled
+    [type_8_845] => combo
+    [name_8_845] => Anchor point:
+    [field_8_845] => anchor
+    [fld_8_845] => 0
+    [type_8_846] => combo
+    [name_8_846] => Path:
+    [field_8_846] => path
+    [fld_8_846] => modules/Multi-Audio-Video Module #5/multiavm.swf
+    [type_8_847] => boolean
+    [name_8_847] => Stretch:
+    [field_8_847] => stretch
+    [fld_8_847] => true
+    [type_8_848] => integer
+    [name_8_848] => Default x position:
+    [field_8_848] => float_x
+    [fld_8_848] => 0
+    [type_8_849] => integer
+    [name_8_849] => Default y position:
+    [field_8_849] => float_y
+    [fld_8_849] => 0
+    [type_8_850] => integer
+    [name_8_850] => Default width:
+    [field_8_850] => float_w
+    [fld_8_850] => 0
+    [type_8_851] => integer
+    [name_8_851] => Default height:
+    [field_8_851] => float_h
+    [fld_8_851] => 0
+    [type_9_1191] => boolean
+    [name_9_1191] => Enabled:
+    [field_9_1191] => enabled
+    [type_9_845] => combo
+    [name_9_845] => Anchor point:
+    [field_9_845] => anchor
+    [fld_9_845] => 0
+    [type_9_846] => combo
+    [name_9_846] => Path:
+    [field_9_846] => path
+    [fld_9_846] => modules/TextAds/text_ads_module.swf
+    [type_9_847] => boolean
+    [name_9_847] => Stretch:
+    [field_9_847] => stretch
+    [fld_9_847] => true
+    [type_9_848] => integer
+    [name_9_848] => Default x position:
+    [field_9_848] => float_x
+    [fld_9_848] => 0
+    [type_9_849] => integer
+    [name_9_849] => Default y position:
+    [field_9_849] => float_y
+    [fld_9_849] => 0
+    [type_9_850] => integer
+    [name_9_850] => Default width:
+    [field_9_850] => float_w
+    [fld_9_850] => 0
+    [type_9_851] => integer
+    [name_9_851] => Default height:
+    [field_9_851] => float_h
+    [fld_9_851] => 0
+    [type_10_1191] => boolean
+    [name_10_1191] => Enabled:
+    [field_10_1191] => enabled
+    [type_10_845] => combo
+    [name_10_845] => Anchor point:
+    [field_10_845] => anchor
+    [fld_10_845] => 0
+    [type_10_846] => combo
+    [name_10_846] => Path:
+    [field_10_846] => path
+    [fld_10_846] => modules/Web_Radio/webradio.swf
+    [type_10_847] => boolean
+    [name_10_847] => Stretch:
+    [field_10_847] => stretch
+    [fld_10_847] => true
+    [type_10_848] => integer
+    [name_10_848] => Default x position:
+    [field_10_848] => float_x
+    [fld_10_848] => 0
+    [type_10_849] => integer
+    [name_10_849] => Default y position:
+    [field_10_849] => float_y
+    [fld_10_849] => 0
+    [type_10_850] => integer
+    [name_10_850] => Default width:
+    [field_10_850] => float_w
+    [fld_10_850] => 0
+    [type_10_851] => integer
+    [name_10_851] => Default height:
+    [field_10_851] => float_h
+    [fld_10_851] => 0
+    [type_11_1191] => boolean
+    [name_11_1191] => Enabled:
+    [field_11_1191] => enabled
+    [type_11_845] => combo
+    [name_11_845] => Anchor point:
+    [field_11_845] => anchor
+    [fld_11_845] => 0
+    [type_11_846] => combo
+    [name_11_846] => Path:
+    [field_11_846] => path
+    [fld_11_846] => modules/Whiteboard/whiteboard.swf
+    [type_11_847] => boolean
+    [name_11_847] => Stretch:
+    [field_11_847] => stretch
+    [fld_11_847] => true
+    [type_11_848] => integer
+    [name_11_848] => Default x position:
+    [field_11_848] => float_x
+    [fld_11_848] => 0
+    [type_11_849] => integer
+    [name_11_849] => Default y position:
+    [field_11_849] => float_y
+    [fld_11_849] => 0
+    [type_11_850] => integer
+    [name_11_850] => Default width:
+    [field_11_850] => float_w
+    [fld_11_850] => 0
+    [type_11_851] => integer
+    [name_11_851] => Default height:
+    [field_11_851] => float_h
+    [fld_11_851] => 0
+    [sub_save] => Save Settings
+)

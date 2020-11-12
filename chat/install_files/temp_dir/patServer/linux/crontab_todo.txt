@@ -1,0 +1,16 @@
+TODO for fcssd (FlashChat socket server daemon):
+1) set executable fcssd file
+2) make some changes in this file (see comments in fcssd file)
+3) simly run it to start socket server
+
+TODO for cron:
+1) type in command line : crontab -e
+2) press a
+3) type : */m * * * *	path/fcssd > /dev/null > 2>&1
+    where : m - number of minutes to check activation of socket server (5 or 10 min)
+            path - path to fcssd script file (this file is in inc/patServer/linux, f.e. /srv/www/htdocs/chat/inc/patServer/linux)
+4) press ESC
+5) type :wq and press ENTER
+6) maybe restart cron daemon (type cron and then if cron is active, get pid of cron daemon, then kill pid, then again type cron)
+
+Have a lot of fun!

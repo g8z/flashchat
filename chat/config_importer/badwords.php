@@ -1,0 +1,30 @@
+<?php
+	$GLOBALS['fc_config']['badWordSubstitute'] = '#$%^&*';
+	$GLOBALS['fc_config']['badWords'] = array(
+		'asses' => 'arses',
+		'asshole' => '@hole',
+		'bitch' => 'b***h',
+		'blowjob',
+		'clit',
+		'cock',
+		'cum*',
+		'cunt',
+		'damn',
+		'dildo',
+		'dink',
+		'fuk',
+		'jism',
+		'jiz',
+		'kock',
+		'kum',
+		'*mothafuck*',
+		'*fuck*',
+		'nigger',
+		'phuk',
+		'phuq',
+		'shit',
+		'spunk',
+		'twat',
+		'дурак',		
+ 	);
+?>

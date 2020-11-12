@@ -1,0 +1,29 @@
+#!/bin/sh
+
+#location of php executable file on your system 
+java_bin="/usr/lib/java/bin/java"
+java_flashchat_path="/home/chat/inc/javaServer/"
+fcss_dir="/home/chat/inc/javaServer"
+website="http://www.host.com/chat"
+
+#path to fcssd script file (see chat/inc/patServer directory)
+
+fcss_f=`ps auxwwwww | grep -i "$website" | grep -i screen | grep -v grep | awk '{print $2}'`
+
+if [ -z "$fcss_f" ]; then
+    echo "Flash Chat socket server is not running, starting it..."
+    cd "$fcss_dir"
+    screen -A -m -d $java_bin -cp $java_flashchat_path flashchat.com.socketServer.SimpleServer "$website"
+
+    fcss_f=`ps auxwwwww | grep -i "$website" | grep -i screen | grep -v grep | awk '{print $2}'`
+	if [ -n "$fcss_f" ]; then
+	    echo $fcss_f > fcssd.pid
+            echo "Socket server is running."
+	else
+	    echo "Socket server could not be started."	
+        fi
+else 
+
+echo "Flash Chat Socket server is already running at pid $fcss_f"
+
+fi

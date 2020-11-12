@@ -1,0 +1,381 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<main>
+	<station url="http://205.188.234.38:8016 ">
+		<name>Chronix Radio</name>
+		<genre>Alternative</genre>
+	</station>
+	<station url="http://67.159.5.102:8030 ">
+		<name>Classic 80s Alternative Radio</name>
+		<genre>Alternative</genre>
+	</station>
+	<station url="http://216.187.105.221:7000">
+		<name>SJIRadio Channel 3</name>
+		<genre>Alternative</genre>
+	</station>
+	<station url="http://72.29.79.136:8000">
+		<name>Egg Radio</name>
+		<genre>Alternative</genre>
+	</station>
+	<station url="http://156.17.39.65:8001">
+		<name>Radio LUZ</name>
+		<genre>Alternative</genre>
+	</station>
+	<station url="http://8.15.0.144:8000">
+		<name>HiFi Radio Networks</name>
+		<genre>Alternative</genre>
+	</station>
+	<station url="http://134.147.239.230:8008">
+		<name>CT Radio</name>
+		<genre>Alternative</genre>
+	</station>
+	<station url="http://69.50.242.162:8016 ">
+		<name>Rock 101.9</name>
+		<genre>Alternative</genre>
+	</station>
+	<station url="http://140.142.8.222:8000">
+		<name>KEXP</name>
+		<genre>Alternative</genre>
+	</station>
+	<station url="http://212.64.117.5:9000 ">
+		<name>Free 4U NF</name>
+		<genre>Alternative</genre>
+	</station>
+<!-- End Alternative -->
+<!-- Classical -->
+	<station url="http://64.236.34.97:80/stream/1006">
+		<name>SKY FM Classical</name>
+		<genre>Classical</genre>
+	</station>
+	<station url="http://210.124.186.244:8000">
+		<name>New Age Internet Radio</name>
+		<genre>Classical</genre>
+	</station>
+	<station url="http://64.236.34.4:80/stream/1006">
+		<name>SKY FM</name>
+		<genre>Classical</genre>
+	</station>
+	<station url="http://211.43.215.167:8058 ">
+		<name>NewAge Cafe</name>
+		<genre>Classical</genre>
+	</station>
+	<station url="http://211.43.215.175:8398 ">
+		<name>HomiHomi Cafe</name>
+		<genre>Classical</genre>
+	</station>
+	<station url="http://69.28.128.148:80/stream/radioio_classical_hi">
+		<name>RadioIO Classical</name>
+		<genre>Classical</genre>
+	</station>
+	<station url="http://220.95.210.103:8000">
+		<name>We meet on classics</name>
+		<genre>Classical</genre>
+	</station>
+	<station url="http://82.197.162.73:80">
+		<name>Radiocrazy Classical</name>
+		<genre>Classical</genre>
+	</station>
+	<station url="http://212.72.165.23:9232">
+		<name>Zanrac`s Classical</name>
+		<genre>Classical</genre>
+	</station>
+	<station url="http://195.228.156.38:8220">
+		<name>RadioMax FM</name>
+		<genre>Classical</genre>
+	</station>
+<!-- End Classical -->
+<!-- Country -->
+	<station url="http://64.236.34.196:80/stream/1075">
+		<name>Total Country</name>
+		<genre>Country</genre>
+	</station>
+	<station url="http://205.188.234.129:8028 ">
+		<name>Cowboy Cultural Society Radio</name>
+		<genre>Country</genre>
+	</station>
+	<station url="http://130.166.72.1:8006">
+		<name>Classic Hartland</name>
+		<genre>Country</genre>
+	</station>
+	<station url="http://67.159.5.248:8046 ">
+		<name>Country Music USA</name>
+		<genre>Country</genre>
+	</station>
+	<station url="http://66.90.85.111:8383">
+		<name>Country Stasjonen</name>
+		<genre>Country</genre>
+	</station>
+	<station url="http://213.189.2.194:8060">
+		<name>Nashville FM</name>
+		<genre>Country</genre>
+	</station>
+	<station url="http://66.160.128.50:8899">
+		<name>Music City Radio</name>
+		<genre>Country</genre>
+	</station>
+	<station url="http://64.62.194.5:11284">
+		<name>LA`s Hot Country</name>
+		<genre>Country</genre>
+	</station>
+	<station url="http://70.86.97.218:9050">
+		<name>Original Country Radio Network</name>
+		<genre>Country</genre>
+	</station>
+	<station url="http://68.97.15.24:8000">
+		<name>Retrostar</name>
+		<genre>Country</genre>
+	</station>
+<!-- End Country -->
+<!-- Easy Listening -->
+	<station url="http://encoder2.rdsnet.ro:8000">
+		<name>Radio Romantic live</name>
+		<genre>Easy</genre>
+	</station>
+	<station url="http://128.171.65.154:8000/ ">
+		<name>KTUH FM Hawaii</name>
+		<genre>Easy</genre>
+	</station>
+	<station url="http://netcast.kfjc.org:8976/ ">
+		<name>KFJC</name>
+		<genre>Easy</genre>
+	</station>
+<!-- End Easy Listening -->
+<!-- Jazz -->
+	<station url="http://sc3.audiorealm.com:11986/">
+		<name>Jazz AudioRealm</name>
+		<genre>Jazz</genre>
+	</station>
+	<station url="http://kanga.college.columbia.edu:8000/">
+		<name>Columbia College Jazz</name>
+		<genre>Jazz</genre>
+	</station>
+	<station url="http://64.236.34.196:80/stream/1005">
+		<name>Smooth Jazz</name>
+		<genre>Jazz</genre>
+	</station>
+	<station url="http://64.236.34.196:80/stream/2008">
+		<name>SKY FM Jazz</name>
+		<genre>Jazz</genre>
+	</station>
+	<station url="http://82.197.162.69:80">
+		<name>Swiss Groove</name>
+		<genre>Jazz</genre>
+	</station>
+	<station url="http://69.46.16.237:8500">
+		<name>Smooth Choice</name>
+		<genre>Jazz</genre>
+	</station>
+	<station url="http://69.28.128.148:80/stream/radioio_jazz_hi">
+		<name>RadioIO Jazz</name>
+		<genre>Jazz</genre>
+	</station>
+	<station url="http://213.251.129.31:9882">
+		<name>Secret Sound Service</name>
+		<genre>Jazz</genre>
+	</station>
+	<station url="=http://217.22.60.34:2580">
+		<name>Crooze FM</name>
+		<genre>Jazz</genre>
+	</station>
+	<station url="http://64.236.34.196:80/stream/1019">
+		<name>SKY FM Modern Jazz</name>
+		<genre>Jazz</genre>
+	</station>
+<!-- End Jazz -->
+<!-- Oldies -->
+	<station url="http://67.43.161.248:7000">
+		<name>Radio Free Colorado</name>
+		<genre>Oldies</genre>
+	</station>
+	<station url="http://209.133.33.250:8020">
+		<name>Accu Radio</name>
+		<genre>Oldies</genre>
+	</station>
+	<station url="http://212.48.125.67:8210">
+		<name>Uden Centraal</name>
+		<genre>Oldies</genre>
+	</station>
+	<station url="http://68.178.147.118:8000">
+		<name>PureGold Rock`n Roll</name>
+		<genre>Oldies</genre>
+	</station>
+	<station url="http://212.48.125.67:8370">
+		<name>SKY FM Classical Rock</name>
+		<genre>Oldies</genre>
+	</station>
+	<station url="http://66.80.143.209:8000">
+		<name>Wombat Radio</name>
+		<genre>Oldies</genre>
+	</station>
+	<station url="http://213.48.102.229:9146">
+		<name>Chat`n Play Radio</name>
+		<genre>Oldies</genre>
+	</station>
+	<station url="http://66.28.201.178:30500">
+		<name>Rhythm and Gold</name>
+		<genre>Oldies</genre>
+	</station>
+	<station url="http://66.90.101.22:8060">
+		<name>Mix 102</name>
+		<genre>Oldies</genre>
+	</station>
+	<station url="http://209.123.8.63:8730">
+		<name>JTP Solid Gold</name>
+		<genre>Oldies</genre>
+	</station>
+<!-- End Oldies -->
+<!-- PopRock -->
+	<station url="http://193.251.154.243:8000">
+		<name>Frequence3</name>
+		<genre>PopRock</genre>
+	</station>
+	<station url="http://64.236.34.67:80/stream/1040">
+		<name>Club 977</name>
+		<genre>PopRock</genre>
+	</station>
+	<station url="http://64.236.34.196:80/stream/1074">
+		<name>The Hitz Channel</name>
+		<genre>PopRock</genre>
+	</station>
+	<station url="http://64.236.34.97:80/stream/2001">
+		<name>Radio Paradise</name>
+		<genre>PopRock</genre>
+	</station>
+	<station url="http://64.236.34.196:80/stream/2009">
+		<name>SKY FM Pop Rock</name>
+		<genre>PopRock</genre>
+	</station>
+	<station url="http://205.188.234.69:8000">
+		<name>Radio Wazee</name>
+		<genre>PopRock</genre>
+	</station>
+	<station url="http://194.158.114.66:8100">
+		<name>Magic radio</name>
+		<genre>PopRock</genre>
+	</station>
+	<station url="http://213.186.37.93:8980">
+		<name>80`s Hot</name>
+		<genre>PopRock</genre>
+	</station>
+	<station url="http://213.251.136.163:9880">
+		<name>Star104</name>
+		<genre>PopRock</genre>
+	</station>
+<!-- End Pop Rock -->
+<!-- RnB -->
+	<station url="http://64.236.34.67:80/stream/1038">
+		<name>Hitz Radio</name>
+		<genre>RnB</genre>
+	</station>
+	<station url="http://64.236.34.4:80/stream/1071">
+		<name>Hot 108 Jamz</name>
+		<genre>RnB</genre>
+	</station>
+	<station url="http://212.72.186.10:8055">
+		<name>Energy Radio Jamz</name>
+		<genre>RnB</genre>
+	</station>
+	<station url="http://85.12.7.2:8000">
+		<name>DEFJAY</name>
+		<genre>RnB</genre>
+	</station>
+	<station url="http://66.98.172.44:8000">
+		<name>Roots Radio</name>
+		<genre>RnB</genre>
+	</station>
+	<station url="http://213.251.129.25:8000">
+		<name>LinaSunLine</name>
+		<genre>RnB</genre>
+	</station>
+	<station url="http://195.228.75.156:8060">
+		<name>Mellesleg Radio</name>
+		<genre>RnB</genre>
+	</station>
+	<station url="http://66.28.200.122:7350">
+		<name>Southern Crunk Radio</name>
+		<genre>RnB</genre>
+	</station>
+	<station url="http://193.2.60.75:8000">
+		<name>makiavely NiGhAz RaDiO</name>
+		<genre>RnB</genre>
+	</station>
+<!-- End RnB -->
+<!-- Talk, News, Sports -->
+	<station url="http://66.225.205.60:80">
+		<name>New York Public Radio</name>
+		<genre>Talk</genre>
+	</station>
+	<station url="http://64.236.34.196:80/stream/1057">
+		<name>Sporting News Radio</name>
+		<genre>Talk</genre>
+	</station>
+	<station url="http://69.64.50.179:8000">
+		<name>Webranger Radio</name>
+		<genre>Talk</genre>
+	</station>
+	<station url="http://64.202.98.51:8360">
+		<name>WCCM Haverhill/Lawrence</name>
+		<genre>Talk</genre>
+	</station>
+	<station url="http://69.28.128.148:80/stream/wamu_wamufm">
+		<name>WAMU Washinghton</name>
+		<genre>Talk</genre>
+	</station>
+	<station url="http://207.111.193.3:9000">
+		<name>KSCO Santa Cruz</name>
+		<genre>Talk</genre>
+	</station>
+	<station url="http://82.165.244.70:8010">
+		<name>FOSS Radio</name>
+		<genre>Talk</genre>
+	</station>
+	<station url="http://66.134.86.20:8000">
+		<name>World Business Exchange Radio</name>
+		<genre>Talk</genre>
+	</station>
+	<station url="http://24.207.26.60:9020">
+		<name>Rant Radio</name>
+		<genre>Talk</genre>
+	</station>
+<!-- End Talk, News, Sports -->
+<!-- Trance, House -->
+	<station url="http://205.188.234.35:8012">
+		<name>TTT Radio</name>
+		<genre>Trance</genre>
+	</station>
+	<station url="http://64.236.34.4:80/stream/1003">
+		<name>Trance US UltraVox</name>
+		<genre>Trance</genre>
+	</station>
+	<station url="http://64.236.34.4:80/stream/1065">
+		<name>Vocal Trance</name>
+		<genre>Trance</genre>
+	</station>
+	<station url="http://64.236.34.4:80/stream/2007">
+		<name>Goa  Psychedelic Trance</name>
+		<genre>Trance</genre>
+	</station>
+	<station url="http://195.137.248.35:8100">
+		<name>Radio FG</name>
+		<genre>Trance</genre>
+	</station>
+	<station url="http://64.236.34.4:80/stream/1032">
+		<name>Drone Zone</name>
+		<genre>Trance</genre>
+	</station>
+	<station url="http://205.188.234.65:8006">
+		<name>Philosomatika</name>
+		<genre>Trance</genre>
+	</station>
+	<station url="http://193.19.217.23:9000">
+		<name>Radio ABF</name>
+		<genre>Trance</genre>
+	</station>
+	<station url="http://221.191.90.55:8000">
+		<name>Trance</name>
+		<genre>Trance</genre>
+	</station>
+	<station url="http://82.179.199.51:8128">
+		<name>Deep Mix Moscow radio</name>
+		<genre>Trance</genre>
+	</station>
+</main>

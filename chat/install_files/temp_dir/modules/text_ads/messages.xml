@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<main>
+	<message>
+		<title><![CDATA[Welcome!]]></title>
+		<text><![CDATA[Welcome to FlashChat!]]></text>
+		<rooms>all</rooms>
+		<langs>all</langs>
+	</message>
+	<message>
+		<title><![CDATA[Welcome to Hollywood!]]></title>
+		<text><![CDATA[Welcome to the "Hollywood" room!]]></text>
+		<rooms>Hollywood</rooms>
+		<langs>all</langs>
+	</message>
+	<message>
+		<title><![CDATA[World Events]]></title>
+		<text><![CDATA[Welcome to the "Current Events" room!]]></text>
+		<rooms>Current Events</rooms>
+		<langs>all</langs>
+	</message>
+	<message>
+		<title><![CDATA[Hollywood / CE Title]]></title>
+		<text><![CDATA[You are now in either Hollywood or Current Events!]]></text>
+		<rooms>Hollywood,Current Events</rooms>
+		<langs>all</langs>
+	</message>
+	<message>
+		<title><![CDATA[French Title]]></title>
+		<text><![CDATA[Bonjour!]]></text>
+		<rooms>all</rooms>
+		<langs>fr</langs>
+	</message>
+	<message>
+		<title><![CDATA[German Title]]></title>
+		<text><![CDATA[Guten Tag!]]></text>
+		<rooms>all</rooms>
+		<langs>gm</langs>
+	</message>
+	<message>
+		<title><![CDATA[GM/FR Title]]></title>
+		<text><![CDATA[Guten Tag! (or... Bonjour!)]]></text>
+		<rooms>all</rooms>
+		<langs>fr,gm</langs>
+	</message>
+	<message>
+		<title><![CDATA[FR/Hollywood Title]]></title>
+		<text><![CDATA[Bonjour! You are in Hollywood.]]></text>
+		<rooms>Hollywood</rooms>
+		<langs>fr</langs>
+	</message>
+</main>

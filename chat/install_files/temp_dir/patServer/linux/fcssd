@@ -1,0 +1,25 @@
+#!/bin/sh
+
+#location of php executable file on your system 
+php_dir="/usr/bin"
+#path to runServer.php script file (see chat/inc/patServer directory)
+fcss_dir="/var/www/chat/inc/patServer"
+fcss_com="$php_dir/php -q ./runServer.php"
+
+fcss_f=`ps auxw | grep "SCREEN $fcss_com" | grep -v grep`
+
+if [ -z "$fcss_f" ]; then
+    echo "FlashChat socket server is not running, starting it..."
+    cd "$fcss_dir"
+    screen -A -m -d $fcss_com
+    sleep 1
+    fcss_f=`ps auxw | grep "$fcss_com" | grep -v grep` 
+	if [ -n "$fcss_f" ]; then
+	    echo $fcss_f > fcssd.pid
+            echo "Socket server is running."
+	else
+	    echo "Socket server could not be started."	
+  fi
+else
+  echo "Socket server already running."
+fi

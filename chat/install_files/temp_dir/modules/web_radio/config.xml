@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+  <width>265</width>
+  <height>300</height>
+  <sort_by>name</sort_by>
+  <sort_type>ASC</sort_type>
+  <sort_by_text>Sort By</sort_by_text>
+  <name_text>Name</name_text>
+  <genre indent="5" text="Genre" bold="true" italic="false">
+  </genre>
+  <url_text>Url</url_text>
+  <add_button>Add</add_button>
+  <remove_button>Remove</remove_button>
+  <add_window_title>New Station</add_window_title>
+  <ok_button>Ok</ok_button>
+  <cancel_button>Cancel</cancel_button>
+</main>

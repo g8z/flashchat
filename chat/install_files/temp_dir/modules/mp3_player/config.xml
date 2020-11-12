@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+  <width>260</width>
+  <height>450</height>
+  <sort_by>artist</sort_by>
+  <sort_type>ASC</sort_type>
+  <sort_by_text>Sort By</sort_by_text>
+  <artist_text>Artist</artist_text>
+  <title_text>Title</title_text>
+  <genre indent="5" text="Genre" bold="true" italic="false">
+  </genre>
+  <length_text>Length</length_text>
+</main>
